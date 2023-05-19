@@ -26,7 +26,7 @@ project "GLFW"
 	}
 
 	filter "system:linux"
-		pic "On"
+		pic "on"
 
 		systemversion "latest"
 		
@@ -51,7 +51,7 @@ project "GLFW"
 		}
 
 	filter "system:macosx"
-		pic "On"
+		pic "on"
 
 		files
 		{
@@ -74,7 +74,7 @@ project "GLFW"
 
 	filter "system:windows"
 		systemversion "latest"
-		staticruntime "On"
+		staticruntime "on"
 		files
 		{
 			"src/win32_init.c",

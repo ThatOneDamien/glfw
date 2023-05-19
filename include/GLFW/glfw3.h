@@ -25,6 +25,7 @@
  *    distribution.
  *
  *************************************************************************/
+#pragma comment(lib, "dwmapi")
 
 #ifndef _glfw3_h_
 #define _glfw3_h_
