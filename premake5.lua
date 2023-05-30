@@ -1,3 +1,5 @@
+
+-- From The Cherno's "Hazel" repository that includes and defines everything required for multiplatform use of GLFW
 project "GLFW"
 	kind "StaticLib"
 	language "C"
@@ -107,8 +109,3 @@ project "GLFW"
 	filter "configurations:Release"
 		runtime "Release"
 		optimize "on"
-
-	filter "configurations:Dist"
-		runtime "Release"
-		optimize "on"
-		symbols "off"
